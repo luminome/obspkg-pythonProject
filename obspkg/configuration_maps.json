@@ -1,0 +1,169 @@
+{
+  "includes": [
+      "guides",
+      "depth_points",
+      "urban",
+      "contours",
+      "places",
+      "protected_regions",
+      "wind",
+      "sst",
+      "wudi"
+  ],
+  "attribution":
+    {
+      "map_source": [
+        {
+          "map_polygon": "GOaS_v1_20211214, epsg:4326, goas-link"
+        }
+      ],
+      "data_source": [
+        {
+          "depth_points": "bathy_med_tt.csv"
+        }
+      ]
+    },
+  "maps" : [
+    {
+      "name": "whole_map",
+      "map_source": "map_polygon",
+      "path": null,
+      "box": [-10, 28, 38, 48],
+      "map_degrees": 2.0,
+      "includes": [
+        "guides",
+        "wudi",
+        "places",
+        "urban",
+        "depth_points",
+        "contours"
+      ]
+    },
+    {
+      "name": "marseille",
+      "map_source": "map_polygon",
+      "path": null,
+      "box": [2, 41, 8, 45],
+      "map_degrees": 1.0,
+      "includes": [
+        "guides",
+        "protected_regions",
+        "depth_points",
+        "places",
+        "urban",
+        "contours",
+        "wudi",
+        "wind",
+        "sst"
+      ]
+    },
+    {
+      "name": "cairo",
+      "map_source": "map_polygon",
+      "path": null,
+      "box": [30, 30, 34, 34],
+      "map_degrees": 1.0,
+      "includes": [
+        "guides",
+        "protected_regions",
+        "depth_points",
+        "places",
+        "urban",
+        "contours",
+        "wudi",
+        "wind",
+        "sst"
+      ]
+    },
+    {
+      "name": "crete",
+      "map_source": "map_polygon",
+      "path": null,
+      "box": [22, 33, 28, 37],
+      "map_degrees": 1.0,
+      "includes": [
+        "guides",
+        "protected_regions",
+        "depth_points",
+        "places",
+        "urban",
+        "contours",
+        "wudi",
+        "wind",
+        "sst"
+      ]
+    },
+    {
+      "name": "sfax-tripoli",
+      "map_source": "map_polygon",
+      "path": null,
+      "box": [9, 32, 15, 38],
+      "map_degrees": 1.0,
+      "includes": [
+        "guides",
+        "protected_regions",
+        "depth_points",
+        "places",
+        "urban",
+        "contours",
+        "wudi",
+        "wind",
+        "sst"
+      ]
+    },
+    {
+      "name": "corsica",
+      "map_source": "map_polygon",
+      "path": null,
+      "box": [8, 40.5, 10, 43.5],
+      "map_degrees": 0.5,
+      "includes": [
+        "guides",
+        "protected_regions",
+        "depth_points",
+        "places",
+        "urban",
+        "contours",
+        "wudi",
+        "wind",
+        "sst"
+      ]
+    },
+    {
+      "name": "sicily",
+      "map_source": "map_polygon",
+      "path": null,
+      "box": [12, 36, 16, 40],
+      "map_degrees": 0.5,
+      "includes": [
+        "guides",
+        "protected_regions",
+        "depth_points",
+        "places",
+        "urban",
+        "contours",
+        "wudi",
+        "wind",
+        "sst"
+      ]
+    },
+    {
+      "name": "gibraltar",
+      "map_source": "map_polygon",
+      "path": null,
+      "box": [-6, 34, -2, 38],
+      "map_degrees": 0.5,
+      "includes": [
+        "guides",
+        "protected_regions",
+        "depth_points",
+        "places",
+        "urban",
+        "contours",
+        "wudi",
+        "wind",
+        "sst"
+      ]
+    }
+  ]
+}
